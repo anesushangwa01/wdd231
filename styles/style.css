@@ -1,0 +1,29 @@
+body{
+    margin: auto;
+}
+
+header{
+ display: flex;
+gap: 10px;
+align-self: center;
+justify-content: center;
+background-color: green;
+
+}
+
+.himg img{
+    max-width: 60px;
+}
+
+
+ nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+list-style: none;
+}
+nav{
+    background-color: rgb(197, 119, 119);
+    padding: 10px;
+}
