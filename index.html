@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/small.css">
     <title>Home</title>
 </head>
 <body>
+    <button id="menu"></button>
     <header>
+       
         <div class="himg">
             <img src="./images/anesu10.webp" alt="">
         </div>
@@ -15,6 +18,7 @@
             <h2 id="name">Anesu Shangwa</h2>
     
         </div>
+      
     </header>
 
     <nav class="nav">
@@ -24,36 +28,47 @@
             <li><a href="#"> Linkedin </a></li>
         </ul>
     </nav>
-
+  <br><br><br>
     <main>
         <section class=" section1">
+            <div class="sameh">
+            
             <h3>Course Work</h3>
-
-            <ul><li>1</li>
+        </div>
+            <ul>
                 <li>1</li>
-                <li>1</li>
+                <li>2</li>
+                <li>3</li>
             
             </ul>
+
 
         </section>
 
         <section class=" section2">
+        <div class="sameh">
         <h3>Harare, Zimbabwe</h3>
+         </div>
 
         <div class="cimg">
-            <img src="" alt="" srcset="">
+            <img src="./images/harare.webp" alt="" srcset="">
         </div>
+        <p>Capital City</p>
 
         </section>
-
+       
         <section class=" section3">
+            <div class="sameh">
             <h3>Web and computer programming</h3>
-
+            </div>
+            <br>
             <div class="btn">
                 <button type="button"> All</button>
                 <button type="button">CSE</button>
                 <button type="button">WDD</button>
             </div>
+            <br>
+            <hr>
             <div class="classes">
                 <div class="same"> <p>CSE 110</p> </div>
                 <div class="same"> <p>WDD 130</p> </div>
@@ -67,10 +82,12 @@
 
         </section>
     </main>
-
+  
     <footer>
         <p>&copy; 2024,Anesu Shangwa, Zimbabwe</p>
-        <p>last updat: <span></span></p>
+        <p>last update: <span id="updatetime"></span></p>
     </footer>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
