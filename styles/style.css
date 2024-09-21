@@ -102,6 +102,7 @@ main {
 .section1,.section2,.section3{
   
 box-shadow: 10px 10px 44px -17px rgba(0,0,0,0.75);
+
 }
 
 .btn{
@@ -126,6 +127,9 @@ button{
     background-color:  #25d366;
     color: white;
     border-radius: 5px solid  black;
+    font-family: "Arvo", serif;
+font-weight: 400;
+font-style: normal;
 
 }
 
