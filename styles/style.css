@@ -1,9 +1,23 @@
 body{
     margin: auto;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 img{
     width: 100%;
 }
+
+
+#menu {
+    display: none; 
+}
+
+
+
+
+
+
 
 header{
  display: flex;
@@ -13,6 +27,8 @@ justify-content: center;
 background-color: #111b21;
 color: white;
 padding: 10px;
+
+
 
 }
 
@@ -33,6 +49,9 @@ list-style: none;
 nav ul a{
     text-decoration: none;
     color: white;
+    font-family: "Arvo", serif;
+font-weight: 400;
+font-style: normal;
 }
 
 a {

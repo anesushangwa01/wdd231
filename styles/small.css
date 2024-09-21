@@ -1,24 +1,54 @@
 @media only screen and (max-width: 600px) { 
 
 
-    #menu {
-        font-size: 1.5rem;
-        border: 0;
-        background: none;
-        color: #000;
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
+   
+    .navigation {
+   
+        display: none; 
+        justify-content: center;
+        text-align: center;
+
     }
 
-    #menu::before {
-	content: "☰";
-    color: white;
-}
+    .navigation ul {
+        list-style-type: none;
+    }
 
-#menu.open::before {
-	content: "❎";
-}
+    .navigation li {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .navigation li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+    }
+
+  
+
+    /* Hamburger menu styles */
+    #menu {
+        display: block;
+ 
+        padding: 15px;
+        background-color: #111b21;
+        color: white;
+        text-align: center;
+       
+    }
+
+    /* Open navigation on small screens */
+    .navigation.open {
+        display: flex;
+    }
+
+    /* Change hamburger style when open */
+    #menu.open {
+        background-color:  #111b21;
+    }
+
 
 
 .navigation a {
