@@ -1,0 +1,17 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 100px;
+
+ 
+    gap:  20px;
+}
+
+section{
+    background-color: BLACK;
+    color: WHITE;
+}
+
+img{
+    width: 100%;
+}
