@@ -1,17 +1,57 @@
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 100px;
-
- 
+    margin: 0 70px;
     gap:  20px;
+
 }
 
 section{
-    background-color: BLACK;
-    color: WHITE;
+    background-color: #1c1e21;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 7px 19px -1px rgba(0,0,0,0.34);
+
+ 
+}
+
+section img {
+    padding: 20px;
 }
 
 img{
-    width: 100%;
+    width: 100px;
 }
+
+p{    align-items: center;}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .cards.grid-view section {
+  
+    margin: 10px;
+  }
+  
+  .cards.list-view section {
+    width: 100%;
+    
+  }
+  
+  .cards.list-view table {
+    width: 100%;
+  }
+
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  .centers{
+    text-align: center;
+  }

@@ -1,0 +1,63 @@
+{
+  "busineses": [
+    {
+      "imageurl": "http://localhost:5500/wdd231/chamber/img/logo-myliquidhome.png",
+      "name": "Robert Mugabe Rd, Eastgate Centre",
+      "phonenumber": "077 728 3803",
+      "website": "https://zw.liquidhome.tech/",
+      "membershiplevel": 3,
+        "names": "Liquid home"
+    },
+    {
+      "imageurl": "http://localhost:5500/wdd231/chamber/img/edgars.png",
+      "name": "9th Ave / Herbert Chitepo St",
+      "phonenumber": "+263-029-2881626/35",
+      "website": "https://shop.edgarsstores.co.zw/",
+      "membershiplevel": 2,
+        "names": "Edgers"
+    },
+    {
+      "imageurl": "http://localhost:5500/wdd231/chamber/img/oldmutal.jpeg",
+      "name": "GRV7+6W9, Gweru",
+      "phonenumber": "054 221 939",
+      "website": "https://www.oldmutual.co.zw/",
+      "membershiplevel": 1,
+        "names": "Old Mutal"
+    },
+    {
+      "imageurl": "http://localhost:5500/wdd231/chamber/img/telecel.png",
+      "name": "148 Seke Rd, Harare",
+      "phonenumber": "(024) 2748321",
+      "website": "https://www.telecel.co.zw/",
+      "membershiplevel": 1,
+        "names": "Telecel"
+    },
+  
+   
+    {
+      "imageurl": "http://localhost:5500/wdd231/chamber/img/cocacola.jpeg",
+      "name": "Cnr, Seke Rd, Harare",
+      "phonenumber": "(024) 2748694",
+      "website": "https://www.coca-cola.co.zw/",
+      "membershiplevel": 3,
+        "names": "Telecel"
+    },
+    {
+      "imageurl": "https://www.zimyellow.com/logos/profile/limage-14696-185-photo.jpg",
+      "name": "Simon Mazorodze Rd, Harare",
+      "phonenumber": "08688 002310",
+      "website": "https://www.zimyellow.com/harare-province/harare/",
+      "membershiplevel": 1,
+      "names": "Pepsi"
+    },
+  
+    {
+      "imageurl": "http://localhost:5500/wdd231/chamber/img/logo-small.jpg",
+      "name": "Slice Center, Number 47, Borrowdale Road",
+      "phonenumber": "(+263) 242 884521",
+      "website": "https://chickenslice.com/",
+      "membershiplevel": 3,
+        "names": "Chicken Slice"
+    }
+  ]
+}

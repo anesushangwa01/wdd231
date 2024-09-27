@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) { 
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr ;
+        }
+
+        .centers{
+            text-align: center;
+        }
+}
