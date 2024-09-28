@@ -1,7 +1,7 @@
 {
   "busineses": [
     {
-      "imageurl": "http://localhost:5500/wdd231/chamber/img/logo-myliquidhome.png",
+      "imageurl": "https://anesushangwa01.github.io/wdd231/chamber/img/logo-myliquidhome.png",
       "name": "Robert Mugabe Rd, Eastgate Centre",
       "phonenumber": "077 728 3803",
       "website": "https://zw.liquidhome.tech/",
@@ -9,7 +9,7 @@
         "names": "Liquid home"
     },
     {
-      "imageurl": "http://localhost:5500/wdd231/chamber/img/edgars.png",
+      "imageurl": "https://anesushangwa01.github.io/wdd231/chamber/img/edgars.png",
       "name": "9th Ave / Herbert Chitepo St",
       "phonenumber": "+263-029-2881626/35",
       "website": "https://shop.edgarsstores.co.zw/",
@@ -17,7 +17,7 @@
         "names": "Edgers"
     },
     {
-      "imageurl": "http://localhost:5500/wdd231/chamber/img/oldmutal.jpeg",
+      "imageurl": "https://anesushangwa01.github.io/wdd231/chamber/img/oldmutal.jpeg",
       "name": "GRV7+6W9, Gweru",
       "phonenumber": "054 221 939",
       "website": "https://www.oldmutual.co.zw/",
@@ -25,7 +25,7 @@
         "names": "Old Mutal"
     },
     {
-      "imageurl": "http://localhost:5500/wdd231/chamber/img/telecel.png",
+      "imageurl": "https://anesushangwa01.github.io/wdd231/chamber/img/telecel.png",
       "name": "148 Seke Rd, Harare",
       "phonenumber": "(024) 2748321",
       "website": "https://www.telecel.co.zw/",
@@ -35,7 +35,7 @@
   
    
     {
-      "imageurl": "http://localhost:5500/wdd231/chamber/img/cocacola.jpeg",
+      "imageurl": "https://anesushangwa01.github.io/wdd231/chamber/img/cocacola.jpeg",
       "name": "Cnr, Seke Rd, Harare",
       "phonenumber": "(024) 2748694",
       "website": "https://www.coca-cola.co.zw/",
@@ -52,7 +52,7 @@
     },
   
     {
-      "imageurl": "http://localhost:5500/wdd231/chamber/img/logo-small.jpg",
+      "imageurl": "https://anesushangwa01.github.io/wdd231/chamber/img/logo-small.jpg",
       "name": "Slice Center, Number 47, Borrowdale Road",
       "phonenumber": "(+263) 242 884521",
       "website": "https://chickenslice.com/",
