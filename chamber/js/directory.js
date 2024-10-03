@@ -125,3 +125,4 @@ listButton.addEventListener("click", async () => {
 
 // Initial fetch to display businesses
 fetchBusinesses();
+
