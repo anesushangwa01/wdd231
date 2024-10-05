@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/chamber.css">
     <link rel="stylesheet" href="./style/directory.css">
+    <link rel="stylesheet" href="./style/small.css">
      <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -25,18 +26,15 @@
         <!-- Hamburger Icon -->
         <div class="hamburger" id="hamburger">
             <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
            
            
         </div>
     </nav>
 
-    <section class="weather">
-        <h3>Current Weather</h3>
-        <div class="weather-content" id="current-weather">
-            <!-- Weather data will be injected here dynamically -->
-            <p>Loading current weather...</p>
-        </div>
 
+     
 
 
     <div class="banner">
@@ -59,84 +57,51 @@
             <!-- Weather Section -->
             <section class="weather">
                 <h3>Current Weather</h3>
-                <div class="weather-content">
-                    <p>75°F</p>
-                    <p>Partly Cloudy</p>
-                    <p>High: 85°F</p>
-                    <p>Low: 52°F</p>
-                    <p>Humidity: 34%</p>
-                    <p>Sunrise: 7:30am</p>
-                    <p>Sunset: 9:59pm</p>
+                <div class="weather-content" id="current-weather">
+                    <p>Loading current weather...</p>
                 </div>
+                <div id="windchill"></div>
+             
+                <figcaption></figcaption>
+                <p>Wind Speed: <span id="speed"></span> m/s</p>
+
             </section>
     
             <!-- Weather Forecast Section -->
             <section class="forecast">
-                <h3>Weather Forecast</h3>
-                <div class="forecast-content">
-                    <p>Today: 90°F</p>
-                    <p>Wednesday: 89°F</p>
-                    <p>Thursday: 68°F</p>
+                 
+        <div class="forecast">
+            <h3>Weather Forecast</h3>
+            <div class="forecast-content" id="forecast-container">
+                <p>Loading forecast...</p>
+            </div>
                 </div>
             </section>
     
             <!-- Business Section 1 -->
-            <section class="bs1">
-                <h3>Business Name</h3>
-                <p>Business Tag Line</p>
-                <div class="business-info">
-                    <div class="business-logo">
-                        <!-- Placeholder for business image -->
-                    </div>
-                    <div class="business-details">
-                        <p><strong>Email:</strong> info@gmail.com</p>
-                        <p><strong>Phone:</strong> 800-555-1234</p>
-                        <p><strong>URL:</strong> mybusiness.com</p>
-                    </div>
-                </div>
-            </section>
+          
     
-            <!-- Business Section 2 -->
-            <section class="bs2">
-                <h3>Business Name</h3>
-                <p>Business Tag Line</p>
-                <div class="business-info">
-                    <div class="business-logo">
-                        <!-- Placeholder for business image -->
-                    </div>
-                    <div class="business-details">
-                        <p><strong>Email:</strong> info@gmail.com</p>
-                        <p><strong>Phone:</strong> 800-555-1234</p>
-                        <p><strong>URL:</strong> mybusiness.com</p>
-                    </div>
-                </div>
-            </section>
+        
     
-            <!-- Business Section 3 -->
-            <section class="bs3">
-                <h3>Business Name</h3>
-                <p>Business Tag Line</p>
-                <div class="business-info">
-                    <div class="business-logo">
-                        <!-- Placeholder for business image -->
-                    </div>
-                    <div class="business-details">
-                        <p><strong>Email:</strong> info@gmail.com</p>
-                        <p><strong>Phone:</strong> 800-555-1234</p>
-                        <p><strong>URL:</strong> mybusiness.com</p>
-                    </div>
-                </div>
-            </section>
+        
         </div>
+
+        
+        <div class="card"></div>
     </main>
+
+
+
+            <br> <br> <br>
+
     
     <footer class="footer">
         <div class="info">
             <strong>Timbuktu Chamber of Commerce</strong>
             <span>10 Rue De La Paix</span>
-            <span>Timbuktu, Mali 999</span>
-            <span>info@timbuktucoc.org</span>
-            <span>(223) 555-2300</span>
+            <span>Timbuktu, 263</span>
+            <span>info@timbuktu.zw</span>
+            <span>+263 774 998 453</span>
         </div>
         <div class="social-icons">
             <img src="https://img.icons8.com/ios-filled/50/000000/youtube-play.png" alt="YouTube">
@@ -145,9 +110,9 @@
         </div>
         <div class="credits">
             <span>WDD231 Class Project</span>
-            <span>Marie Martinez</span>
-            <span>© 20xx Timbuktu Chamber of Commerce</span>
-            <span>Last Modification: 10/21/202x 22:12:35</span>
+            <span>Anesu Shangwa</span>
+            <span>© 2024 Timbuktu Chamber of Commerce</span>
+            <span>Last Modification: </span>
         </div>
     </footer>
 
