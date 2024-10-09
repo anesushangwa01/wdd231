@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/join.css">
+    <link rel="stylesheet" href="./style/chamber.css">
+    <link rel="stylesheet" href="./style/small.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav navigation">
+        <div class="logo-container">
+            <img src="./img/favicon-16x16.png" alt="Timbuktu Chamber of Commerce logo" class="logo-image">
+            <h5>Timbuktu  <br> Chamber of Commerce</h5>
+        </div>
+    
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="./directory.html">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+           
+           
+        </div>
+    </nav>
+
+    <div class="main">
+        <!-- Membership Application Form -->
+        <form action="thankyou.html" method="GET">
+            <fieldset>
+                <legend>Membership Application Form</legend>
+                
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" title="First Name" autocomplete="given-name" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" title="Last Name" autocomplete="family-name" required>
+
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" title="Organizational Title" autocomplete="organization-title" 
+                       pattern="[A-Za-z-\s]{7,}" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" title="Email" autocomplete="email" 
+                       placeholder="example@domain.com" required>
+
+                <label for="phone">Mobile Phone:</label>
+                <input type="tel" id="phone" name="phone" title="Mobile Phone" autocomplete="tel" required>
+
+                <label for="organization">Organization:</label>
+                <input type="text" id="organization" name="organization" title="Organization" 
+                       autocomplete="organization" required>
+
+                <label for="membership-level">Membership Level:</label>
+                <select id="membership-level" name="membership-level" title="Membership Level" required>
+                    <option value="np">Non-Profit Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+
+                <label for="description">Business/Organization Description:</label>
+                <textarea id="description" name="description" title="Description" rows="4" cols="50"></textarea>
+
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+                
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+        <!-- Membership Levels Section -->
+        <section id="membership-levels">
+            <h2>Membership Levels</h2>
+            <div class="membership-card" id="np-card">
+                <h3>Non-Profit Membership</h3>
+                <button onclick="showModal('np-modal')">Learn More</button>
+            </div>
+            <div class="membership-card" id="bronze-card">
+                <h3>Bronze Membership</h3>
+                <button onclick="showModal('bronze-modal')">Learn More</button>
+            </div>
+            <div class="membership-card" id="silver-card">
+                <h3>Silver Membership</h3>
+                <button onclick="showModal('silver-modal')">Learn More</button>
+            </div>
+            <div class="membership-card" id="gold-card">
+                <h3>Gold Membership</h3>
+                <button onclick="showModal('gold-modal')">Learn More</button>
+            </div>
+        </section>
+
+        <!-- Modals for Membership Levels -->
+        <div id="np-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('np-modal')">&times;</span>
+                <h2>Non-Profit Membership</h2>
+                <p>Details about the non-profit membership benefits...</p>
+            </div>
+        </div>
+
+        <div id="bronze-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('bronze-modal')">&times;</span>
+                <h2>Bronze Membership</h2>
+                <p>Details about the bronze membership benefits...</p>
+            </div>
+        </div>
+
+        <div id="silver-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('silver-modal')">&times;</span>
+                <h2>Silver Membership</h2>
+                <p>Details about the silver membership benefits...</p>
+            </div>
+        </div>
+
+        <div id="gold-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('gold-modal')">&times;</span>
+                <h2>Gold Membership</h2>
+                <p>Details about the gold membership benefits...</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./js/chamber.js"></script>
+  
+</body>
+</html>
