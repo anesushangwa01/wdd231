@@ -9,7 +9,7 @@ function closeModal(modalId) {
 }
 
 // Set timestamp value
-
+// document.getElementById('timestamp').value = new Date().toISOString();
 
 
 const hamburger = document.getElementById('hamburger');
@@ -49,5 +49,4 @@ hamburger.addEventListener('click', function () {
             document.getElementById('display-phone').textContent = params.phone || 'N/A';
             document.getElementById('display-organization').textContent = params.organization || 'N/A';
             document.getElementById('display-timestamp').textContent = params.timestamp || 'N/A';
-            document.getElementById('timestamp').value = new Date().toISOString();
         });
