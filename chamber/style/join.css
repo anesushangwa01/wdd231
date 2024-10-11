@@ -1,9 +1,15 @@
+body{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+  }
+
 
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
 
 
 
@@ -120,15 +126,19 @@ background-color: rgba(0, 0, 0, 0.5);
 
 .modal-content {
 background-color: #fff;
-margin: auto;
+margin: 0 300px;
 padding: 20px;
 border: 1px solid black;
 
 border-radius: 5px;
 }
 
+h2{
+    text-align: center;
+}
+
 .close {
-color: white;
+color: black;
 float: right;
 font-size: 28px;
 font-weight: bold;

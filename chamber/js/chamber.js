@@ -167,3 +167,18 @@ function displayBusinessesGrid(business) {
 
 // Call the function to fetch and display businesses
 fetchBusinesses();
+
+
+
+// Show modal
+function showModal(modalId) {
+    document.getElementById(modalId).style.display = "block";
+}
+
+// Close modal
+function closeModal(modalId) {
+    document.getElementById(modalId).style.display = "none";
+}
+
+// Set timestamp value
+document.getElementById('timestamp').value = new Date().toISOString();
