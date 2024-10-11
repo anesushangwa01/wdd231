@@ -137,6 +137,8 @@ h2{
     text-align: center;
 }
 
+
+
 .close {
 color: black;
 float: right;
@@ -157,5 +159,27 @@ cursor: pointer;
 .main{
 display: grid;
 grid-template-columns: 1fr 1fr;
+}
+
+
+.thankyou {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+li strong {
+    width: 150px;
+    display: inline-block;
 }
 
