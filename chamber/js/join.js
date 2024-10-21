@@ -150,20 +150,20 @@ hamburger.addEventListener('click', function () {
 
         document.addEventListener("DOMContentLoaded", function() {
             const lazyImages = document.querySelectorAll('img.lazy-load');
-        
+            
             const imageObserver = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         const img = entry.target;
                         img.src = img.getAttribute('data-src'); // Set the actual image source
                         img.removeAttribute('data-src');
-                        imageObserver.unobserve(img); // Stop observing once loaded
+                        img.classList.remove('lazy-load'); // Optional: remove the lazy class
+                        observer.unobserve(img); // Stop observing the image once loaded
                     }
                 });
-            });
-        
+            }, { rootMargin: '0px 0px 100px 0px', threshold: 0.1 }); // Adjust root margin if necessary
+            
             lazyImages.forEach(image => {
                 imageObserver.observe(image);
             });
         });
-        
