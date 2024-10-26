@@ -1,0 +1,40 @@
+{
+    "products": [
+      {
+        "imageurl": "http://localhost:5500/wdd231/fruitsandveg/img/tomatoes-417104_640.webp",
+        "name": "Tomatoes",
+        "price": "$1.99 per kg",
+        "description": "Fresh, juicy red tomatoes perfect for salads, sauces, and more. Locally grown with no added chemicals.",
+        "orderurl":  "http://localhost:5500/wdd231/fruitsandveg/orderform.html"
+      },
+      {
+        "imageurl": "http://localhost:5500/wdd231/fruitsandveg/fruitsimg/apple-2720105_640.webp",
+        "name": "Apples",
+        "price": "$3.50 per kg",
+        "description": "Crisp and sweet apples, a great snack for any time of the day. Available in different varieties.",
+        "orderurl":  "http://localhost:5500/wdd231/fruitsandveg/orderform.html"
+      },
+      {
+        "imageurl": "http://localhost:5500/wdd231/fruitsandveg/fruitsimg/bananas-614090_640.webp",
+        "name": "Bananas",
+        "price": "$2.25 per kg",
+        "description": "Rich in potassium, these ripe bananas are great for smoothies, baking, or snacking.",
+        "orderurl":  "http://localhost:5500/wdd231/fruitsandveg/orderform.html"
+      },
+      {
+        "imageurl": "http://localhost:5500/wdd231/fruitsandveg/fruitsimg/vegetables-1707600_640.webp",
+        "name": "Potatoes",
+        "price": "$1.80 per kg",
+        "description": "Versatile and hearty potatoes, ideal for roasting, mashing, or frying.",
+        "orderurl":  "http://localhost:5500/wdd231/fruitsandveg/orderform.html"
+      },
+      {
+        "imageurl": "http://localhost:5500/wdd231/fruitsandveg/fruitsimg/oranges-2100108_640.webp",
+        "name": "Oranges",
+        "price": "$2.75 per kg",
+        "description": "Zesty and sweet oranges, full of vitamin C for a healthy immune boost.",
+        "orderurl":  "http://localhost:5500/wdd231/fruitsandveg/orderform.html"
+      }
+    ]
+  }
+  

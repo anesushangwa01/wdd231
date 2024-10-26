@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/large.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <style>
+        /* Container to hold both sections */
+#container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between sections */
+    margin: 40px auto; /* Center the container */
+    max-width: 1200px; /* Max width for the container */
+}
+
+/* Styles for the About Us section */
+#about-us {
+    flex: 1; /* Allow it to grow */
+    margin-right: 20px; /* Space between sections */
+    padding: 20px; /* Padding around the section */
+    background-color: white; /* Light background color */
+    border: 1px solid black; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+#about-us h2 {
+    text-align: center; /* Center the heading */
+    color: black; /* Dark color for the heading */
+}
+
+#about-us h3 {
+    font-size: 1.5rem; /* Subheading size */
+    color: black; /* Highlighted color for subheadings */
+    margin-top: 20px; /* Space above subheading */
+}
+
+#about-us p {
+    font-size: 1rem; /* Font size for paragraphs */
+    color: black; /* Gray color for text */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+#about-us strong {
+    color: black; /* Darker color for emphasized text */
+}
+
+/* Styles for the Contact Us section */
+#contact-us {
+    flex: 1; /* Allow it to grow */
+    margin-left: 20px; /* Space between sections */
+    padding: 20px; /* Padding around the section */
+    background-color: white; /* Light background color */
+    border: 1px solid black; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+#contact-us h2 {
+    text-align: center; 
+    color: #000;
+    
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Label takes full width */
+    margin-bottom: 5px; /* Space below label */
+    color: #000; /* Gray color for labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #000; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #4CAF50; /* Highlight border on focus */
+    outline: none; /* Remove outline */
+}
+
+button {
+    background-color:black; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for the button */
+    font-size: 1rem; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s;
+    width: 100%; 
+}
+
+button:hover {
+    background-color: #4CAF50; 
+}
+
+    </style>
+
+<header>
+    <header>
+        <div class="navbar">
+            <div class="logo">Logo</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+    <div id="container">
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to <strong>Fruits & veg</strong>, your premier online destination for fresh fruits and vegetables!</p>
+            <p> we believe that everyone deserves access to high-quality, nutritious produce that enhances their meals and supports a healthy lifestyle. Our mission is to connect you with the finest fruits and vegetables, sourced directly from local farms and trusted suppliers.</p>
+    
+            <h3>Our Commitment to Freshness</h3>
+            <p>We understand that freshness is key when it comes to produce. That’s why we prioritize seasonal and locally grown fruits and vegetables. Our team is dedicated to curating a selection of the best products, ensuring that you receive the freshest items right at your doorstep.</p>
+    
+            <h3>Supporting Local Farmers</h3>
+            <p>By shopping with us, you’re not just buying fruits and vegetables; you’re supporting local farmers and sustainable agriculture. We work closely with farmers to promote environmentally friendly practices that benefit the community and contribute to a healthier planet.</p>
+    
+            <h3>Quality You Can Trust</h3>
+            <p>Quality is at the heart of what we do. Each product is carefully inspected to meet our high standards before it reaches you. We are committed to providing only the best for our customers, so you can feel confident in every purchase.</p>
+    
+            <h3>Your Health, Our Priority</h3>
+            <p>Eating a variety of fruits and vegetables is essential for a balanced diet, and we are here to help you make healthier choices. Explore our extensive range of produce and discover tips, recipes, and nutritional information to inspire you in the kitchen.</p>
+    
+            <h3>Join Our Community</h3>
+            <p>We’re more than just a grocery store; we’re a community of fruit and vegetable lovers! Follow us on social media, subscribe to our newsletter, and share your favorite recipes with us. Together, let’s celebrate the vibrant world of fruits and vegetables!</p>
+    
+            <p>Thank you for choosing us  We look forward to serving you fresh, quality produce and being a part of your healthy journey!</p>
+        </section>
+    
+        <section id="contact-us">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    
+
+    <br><br><br>
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="containers">
+            <div class="footer-grid">
+                <div class="about-section">
+                    <h6>About</h6>
+                    <p>Fruit and Vegetable </p>
+                </div>
+    
+                <div class="contacts-section">
+                    <h6>Contacts</h6>
+                    <ul class="footer-links">
+                        <li><a href="tel:+263774998764">+263 774 998 764</a></li>
+                        <li><a href="mailto:anesushangwa01@gmail.com">anesushangwa01&#64;gmail.com</a></li>
+                    </ul>
+                </div>
+    
+                <div class="created-section">
+                    <h6>Created by:</h6>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/anesushangwa01/profile">Anesu Shangwa</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <p class="copyright-text">Copyright &copy; 2024</p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
