@@ -6,7 +6,7 @@ function toggleMenu() {
 
 
 // URL to your JSON file containing the products data
-const url = 'http://localhost:5500/wdd231/fruitsandveg/data/product.json';
+const url = 'https://anesushangwa01.github.io/wdd231/fruitsandVeg/data/product.json';
 
 // Fetch the product data
 fetch(url)
