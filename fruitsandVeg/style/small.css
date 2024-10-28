@@ -1,0 +1,123 @@
+
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* Single column on small screens */
+    }
+  }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+    
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid black;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+    .active{
+        background-color: #4CAF50;
+    }
+  
+    .hamburger {
+        display: flex;
+        color: black;
+    }
+
+    .navbar nav ul li {
+        margin: 15px 0;
+    }
+
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    margin: 0 10px;
+      
+        align-items: center;
+    }
+
+
+    #product-container {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-gap: 20px; 
+        padding: 20px;
+        margin: 0 auto; 
+      }
+
+
+      #container {
+        display: block; 
+        justify-content: space-between; /* Space between sections */
+        margin: 40px auto; /* Center the container */
+        max-width: 1200px; /* Max width for the container */
+    }
+}
+
+
+
+    
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column; /* Stack sections vertically */
+        padding: 10px;
+    }
+
+    #about-us, #contact-us {
+        margin: 10px 0; /* Adjust margin for vertical stacking */
+    }
+
+    #about-us h3 {
+        font-size: 1.3rem; /* Adjust subheading size */
+    }
+
+    #about-us p, #contact-us p, label {
+        font-size: 0.9rem; /* Adjust font size */
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 0.9rem; /* Reduce button font size */
+    }
+}
+
+@media (max-width: 480px) {
+    #about-us, #contact-us {
+        padding: 15px; /* Reduce padding on small screens */
+    }
+
+    #about-us h3, #about-us p, #contact-us p, label {
+        font-size: 0.85rem; /* Further adjust font size */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 8px; /* Reduce input padding */
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 8px 10px;
+        font-size: 0.85rem; /* Further reduce button font size */
+    }
+}
+
+
+  
